@@ -46,15 +46,15 @@ This project is a fully-functional dashboard application built using **Next.js**
 3. Configure environment variables:
    Create a `.env` file with the following variables:
    ```env
-   NEXTAUTH_SECRET = 
-   POSTGRES_URL_NON_POOLING = 
-   POSTGRES_URL_NO_SSL = 
-   POSTGRES_PRISMA_URL = 
-   POSTGRES_USER = 
-   POSTGRES_PASSWORD = 
-   POSTGRES_HOST = 
-   POSTGRES_DATABASE = 
-   POSTGRES_URL =
+   NEXTAUTH_SECRET
+   POSTGRES_URL_NON_POOLING
+   POSTGRES_URL_NO_SSL 
+   POSTGRES_PRISMA_URL
+   POSTGRES_USER
+   POSTGRES_PASSWORD
+   POSTGRES_HOST
+   POSTGRES_DATABASE
+   POSTGRES_URL
    ```
 4. Run database migrations:
    ```bash
