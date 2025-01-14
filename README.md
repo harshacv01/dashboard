@@ -75,6 +75,3 @@ This project is a fully-functional dashboard application built using **Next.js**
 - Project URL: [Check it out here](https://lnkd.in/gczAbbXY)
 
 ---
-
-### 🏷️ Hashtags
-#Nextjs #WebDevelopment #JavaScript #FrontendDevelopment #FullStackDevelopment #Dashboard
