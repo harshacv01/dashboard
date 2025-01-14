@@ -46,9 +46,15 @@ This project is a fully-functional dashboard application built using **Next.js**
 3. Configure environment variables:
    Create a `.env` file with the following variables:
    ```env
-   DATABASE_URL=your_postgresql_connection_string
-   NEXTAUTH_SECRET=your_nextauth_secret
-   NEXTAUTH_URL=http://localhost:3000
+   NEXTAUTH_SECRET = 7c3a68fb196e087ef2ffe9d0947e5251
+   POSTGRES_URL_NON_POOLING = postgres://default:9Heb2AmxaCTM@ep-shrill-forest-a4g8duyx.us-east-1.aws.neon.tech/verceldb?sslmode=require
+   POSTGRES_URL_NO_SSL = postgres://default:9Heb2AmxaCTM@ep-shrill-forest-a4g8duyx-pooler.us-east-1.aws.neon.tech/verceldb
+   POSTGRES_PRISMA_URL = postgres://default:9Heb2AmxaCTM@ep-shrill-forest-a4g8duyx-pooler.us-east-1.aws.neon.tech/verceldb?pgbouncer=true&connect_timeout=15&sslmode=require
+   POSTGRES_USER = default
+   POSTGRES_PASSWORD = 9Heb2AmxaCTM
+   POSTGRES_HOST = ep-shrill-forest-a4g8duyx-pooler.us-east-1.aws.neon.tech
+   POSTGRES_DATABASE = verceldb
+   POSTGRES_URL = postgres://default:9Heb2AmxaCTM@ep-shrill-forest-a4g8duyx-pooler.us-east-1.aws.neon.tech/verceldb?sslmode=require
    ```
 4. Run database migrations:
    ```bash
@@ -70,8 +76,3 @@ This project is a fully-functional dashboard application built using **Next.js**
 ## 📚 References
 - [Next.js Documentation](https://nextjs.org/)
 - [Prisma ORM](https://www.prisma.io/)
-
-## 🔗 Links
-- Project URL: [Check it out here](https://lnkd.in/gczAbbXY)
-
----
