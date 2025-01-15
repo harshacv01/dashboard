@@ -1,4 +1,4 @@
-# Next.js Dashboard Application
+# Next.js Dashboard Application 
 
 ## 🚀 Overview
 This project is a fully-functional dashboard application built using **Next.js**. It highlights the framework's advanced features while providing a robust and user-friendly interface for managing data.
